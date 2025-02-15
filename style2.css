@@ -1,0 +1,173 @@
+*{
+  box-sizing: border-box;
+}
+
+/* index.html */
+  body{
+      margin: 0px;
+      background-color: white;
+  }
+  header{
+      background-color: grey;
+      text-align: left;
+      padding: 25px;
+      color: white;
+      font-family: "Georgia", sans-serif;
+  }
+
+  .headshot{
+      display: block;
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      padding: 50px;
+      float: left;
+      border: 15px solid black;
+      margin: 10px;
+  }
+  .about-me{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Georgia", sans-serif;
+  }
+  article{
+      text-align: center;
+      padding: 10px;
+      margin: 30px center;
+      margin-left: 600px;
+      max-width: 700px;
+      font-family: "Georgia", sans-serif;
+      border: 10px dotted black;
+  }
+  /* navbar */
+  .navbar ul{
+      background-color: black;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      font-family: "Georgia", sans-serif;
+  }
+  .navbar a{
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+      text-align: center;
+      margin-left: 80;
+      margin-right: 90;
+      font-family: "Georgia", sans-serif;
+  }
+  .navbar a:hover{
+      background-color: white;
+  }
+  .navbar li{
+      float: left;
+  }
+
+  /* footer */
+  footer{
+      display: flex;
+      clear: both;
+      background-color: grey;
+      text-align: center;
+      padding: 25px;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-family: "Georgia", sans-serif;
+  }
+  .LinkedIn{
+      margin: 0px;
+      border: 0px;
+      padding:0px;
+  }
+
+  /* Responsive CSS - for mobile */
+  @media screen and (max-width:600px){
+      aside,section, article{
+          width: 100%;
+      }
+  }
+/* Portfolio */
+  .experience {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20 auto;
+    text-align: center;
+    border: 10px dotted black;
+    font-family: "Georgia", sans-serif;
+
+  }
+  .experience-grid {
+      border:10px solid grey;
+      justify-content: center;
+      align-items: center;
+      font-family: "Georgia", sans-serif;
+  }
+
+  .experience-item {
+    border:10px solid grey;
+    justify-content: center;
+    align-items: center;
+    font-family: "Georgia", sans-serif;
+  }
+/* Service */
+  .service {
+      padding: 40px;
+      text-align: center;
+      font-family: "Georgia", sans-serif;
+  }
+  .service-description{
+    padding: 15px;
+    border: 5px dotted black;
+  }
+
+.service-item img {
+    width: 300px; 
+    height: auto;
+    border: 10px solid black;
+    font-family: "Georgia", sans-serif;
+    padding:20px;
+    margin:20px;
+}
+
+
+
+.container {
+    display: block;
+    width: 100%;
+    font-family: "Georgia", sans-serif;
+}
+  
+.resume {
+    text-align: left;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    font-family: "Georgia", sans-serif;
+}
+  
+.resume iframe {
+    width: 100%;
+    height: 90vh;
+    border: 10px dotted black;
+}
+  
+.qualifications {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    font-family: "Georgia", sans-serif;
+}
+  
+.skills {
+    margin-top: 25px;
+    width: 100%;
+    font-family: "Georgia", sans-serif;
+    border: 10px dotted black;
+}
+  
+
+  
+      

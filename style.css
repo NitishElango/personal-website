@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+
+/* index.html */
+    body{
+        margin: 0px;
+        background-color: white;
+    }
+    header{
+        background-color: #8d9db6;
+        text-align: center;
+        padding: 25px;
+        color: white;
+    }
+
+    .headshot{
+        display: block;
+        margin: 20 auto;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .about-me{
+        text-align: center;
+    }
+    article{
+        text-align: center;
+        padding: 10px;
+        border: 10px solid #667292;
+        margin: 30px auto;
+        max-width: 700px;
+        border-radius: 15px;
+    }
+    /* navbar */
+    .navbar ul{
+        background-color: #667292;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        margin-left: 90;
+        margin-right: 90;
+    }
+    .navbar a:hover{
+        background-color: #4b5571;
+    }
+    .navbar li{
+        float: left;
+    }
+
+    /* footer */
+    footer{
+        display: flex;
+        clear: both;
+        background-color: #8d9db6;
+        text-align: center;
+        padding: 25px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .LinkedIn{
+        margin: 0px;
+        border: 0px;
+        padding:0px;
+    }
+
+    /* Responsive CSS - for mobile */
+    @media screen and (max-width:600px){
+        aside,section, article{
+            width: 100%;
+        }
+    }
+/* Portfolio */
+    .experience {
+        padding: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    .experience-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .experience-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #f4f4f4;
+        padding: 15px;
+        border: 5px solid #8d9db6;
+        border-radius: 15px;
+        text-align: center;
+        height: 350px;
+        width: 300px;
+    }
+/* Service */
+    .service {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .service h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .service-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .service-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .service-description {
+        max-width: 50%;
+        text-align: left; 
+        padding:10px;
+        border: 10px solid #667292;
+        border-radius: 15px;
+    }
+
+    .service-item img {
+        width: 300px; 
+        height: auto;
+        border: 10px solid #667292;
+        border-radius: 10px; 
+    }
+    
+
+    .container {
+        display: flex;
+        width: 100%;
+    }
+    
+    .resume {
+        text-align: center;
+        height: 100vh;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .resume iframe {
+        width: 100%;
+        height: 90vh;
+        border: none;
+    }
+    
+    .qualifications {
+        width: 50%;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    .skills {
+        width: 100%;
+    }
+    
+
+    
+        
